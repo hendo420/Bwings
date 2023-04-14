@@ -1,0 +1,20 @@
+        <div class="tokenBox"> 
+            <div class="title"> Token ID 420</div>
+            <div class="title"> Multiplier 142%</div>
+        </div>
+        
+        
+        
+        
+        <div class="title" id="sauceIdNum"> Send Sauce: 42 </div>
+        <div class="title" id="sauceSpice"> 120% </div>
+        <div class="inputLabel"id="inputLabel"> Recipient </div>
+        <input class="addressInput" type="text" id="addressInput" placeholder="0x00dFA7....">
+        <div class="txSendButton" onClick= "sendToken()"> Send </div>
+        
+        
+        <div class="title" id="sauceIdNum"> Burn Sauce: 42 </div>
+        <div class="title" id="sauceSpice"> 120% </div>
+        <div class="inputLabel"id="inputLabel"> Amount of Bwings to Burn </div>
+        <input class="addressInput" type="number" id="numberInput" placeholder="6">
+        <div class="txSendButton" onClick= "burnTokens()"> Send </div>
